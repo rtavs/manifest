@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="." />
+  <default revision="mx53-incstage"
+           remote="github"
+           sync-j="4" />
+
+  <project path="kernel" name="linux" />
+  <project path="uboot" name="uboot" />
+  <project path="buildroot" name="buildroot" />
+
+</manifest>
