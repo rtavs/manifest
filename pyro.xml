@@ -16,4 +16,14 @@
   <project remote="oe" revision="pyro" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="rtavs" revision="tunus" name="meta-qt5" path="sources/meta-qt5" />
 
+  <project remote="rockchip" revision="pyro" name="meta-rockchip" path="sources/meta-rockchip"/>
+  <project remote="rockchip" revision="pyro" name="meta-rockchip-extra" path="sources/meta-rockchip-extra"/>
+
+  <project remote="rockchip" revision="master" name="rkbin" path="rkbin"/>
+
+  <project remote="rockchip" revision="yocto" name="build" path="sources/base">
+        <copyfile dest="README" src="README"/>
+        <copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
 </manifest>
