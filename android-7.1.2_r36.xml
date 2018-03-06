@@ -553,4 +553,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
 
+  <!-- remove unneeded projects -->
+  <include name="unused.xml" />
+
 </manifest>
