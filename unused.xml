@@ -66,6 +66,13 @@
   <remove-project name="platform/hardware/ti/omap4-aah" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
 
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/devtools" />
+  <remove-project name="platform/prebuilts/eclipse" />
+  <remove-project name="platform/prebuilts/gradle-plugin" />
+  <remove-project name="platform/prebuilts/libs/libedit" />
+  <remove-project name="platform/prebuilts/maven_repo/android" />
+
   <!-- remove unused mips projects -->
   <remove-project name="device/generic/mips" />
   <remove-project name="device/generic/mips64" />
